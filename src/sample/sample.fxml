@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F98729;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="121.0" layoutY="117.0" text="Usuario:">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <PasswordField layoutX="213.0" layoutY="177.0" />
+      <Label layoutX="95.0" layoutY="175.0" text="Contraseña:">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <TextField layoutX="213.0" layoutY="119.0" />
+      <Button layoutX="95.0" layoutY="242.0" mnemonicParsing="false" text="Boton pulsado">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label id="mostrar" layoutX="273.0" layoutY="247.0" text="Mostrar Contraseña">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+   </children>
+</Pane>
